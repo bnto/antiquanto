@@ -1,0 +1,1 @@
+CREATE TABLE `saveStation` (`id` INT(11) not null AUTO_INCREMENT, `Name` VARCHAR(30) not null, `PassWord` VARCHAR(30) not null, `date` DATETIME, `eMail` TEXT, `info1` TEXT, `info2` TEXT, `info3` TEXT , PRIMARY KEY (`id`), UNIQUE (`Name`, `PassWord`)) 
